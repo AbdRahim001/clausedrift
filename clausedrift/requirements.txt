@@ -1,0 +1,10 @@
+# Runtime dependencies.
+# ClauseDrift itself needs only the Python standard library.
+# This file exists for the dev/optional extras and for one-command setup.
+
+# Optional: semantic matching backend (large download, needs torch)
+# sentence-transformers>=2.2
+
+# Development
+pytest>=7.0
+pytest-cov>=4.0
